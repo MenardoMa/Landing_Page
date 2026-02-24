@@ -12,7 +12,7 @@ const Hero = () => {
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere libero numquam nisi, illum laboriosam ea!
             </p>
             {/* Hero Button */}
-            <div className='flex items-center justify-center md:justify-start gap-4 md:gap-6'>
+            <div className='flex items-center justify-center flex-col md:flex-row md:justify-start gap-4 md:gap-6'>
                 <Button label='Shop Now' aria-label='Shop Now' className='primary-btn cursor-pointer' />
                 <Button label='Explore' aria-label='Explore' className='secondary-btn cursor-pointer' />
             </div>
